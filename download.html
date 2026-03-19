@@ -1,0 +1,2220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr. Akash Mahore is a renowned ophthalmologist at Mahalakshmi Netralaya, Khamgaon, Maharashtra. Expert in cataract surgery, retina care, contact lens fitting, and general eye checkups." />
+  <meta name="keywords" content="Dr. Akash Mahore, ophthalmologist, eye surgeon, Mahalakshmi Netralaya, Khamgaon, Maharashtra, cataract surgery, retina care, contact lens, eye checkup" />
+  <meta name="author" content="Dr. Akash Mahore" />
+  <meta property="og:title" content="Dr. Akash Mahore | Ophthalmologist | Mahalakshmi Netralaya" />
+  <meta property="og:description" content="Expert eye care at Mahalakshmi Netralaya, Khamgaon, Maharashtra. Book an appointment with Dr. Akash Mahore today." />
+  <meta property="og:type" content="website" />
+  <title>Dr. Akash Mahore | Ophthalmologist | Mahalakshmi Netralaya</title>
+
+  <!-- Schema Markup for Medical Professional -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Akash Mahore",
+    "description": "Ophthalmologist and Eye Surgeon specializing in cataract surgery, retina care, and vision correction.",
+    "medicalSpecialty": "Ophthalmology",
+    "worksFor": {
+      "@type": "MedicalOrganization",
+      "name": "Mahalakshmi Netralaya",
+      "url": "https://mahalakshminetralaya.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Khamgaon",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    },
+    "telephone": "+919130165010",
+    "url": "https://mahalakshminetralaya.com"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+  <style>
+/* ============================================================
+   Dr. Akash Mahore – Ophthalmologist Website Styles
+   Mahalakshmi Netralaya, Khamgaon, Maharashtra
+   ============================================================ */
+
+/* ---- CSS Variables ---- */
+:root {
+  --color-primary: #003D82;
+  --color-primary-light: #1565C0;
+  --color-accent: #0288D1;
+  --color-accent-light: #29B6F6;
+  --color-bg: #FFFFFF;
+  --color-bg-soft: #F0F7FF;
+  --color-bg-card: #FFFFFF;
+  --color-text: #1A2B4B;
+  --color-text-muted: #607080;
+  --color-border: #D0E4F7;
+  --color-success: #00897B;
+  --color-whatsapp: #25D366;
+  --shadow-sm: 0 2px 8px rgba(0, 61, 130, 0.08);
+  --shadow-md: 0 8px 32px rgba(0, 61, 130, 0.12);
+  --shadow-lg: 0 20px 60px rgba(0, 61, 130, 0.18);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --nav-height: 72px;
+}
+
+/* ---- Reset & Base ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+ul { list-style: none; }
+
+/* ---- Utility Classes ---- */
+.text-accent { color: var(--color-accent); }
+.text-accent-light { color: var(--color-accent-light); }
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 24px;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 64px;
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  background: rgba(2, 136, 209, 0.1);
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.section-label.light {
+  color: var(--color-accent-light);
+  background: rgba(41, 182, 246, 0.15);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.2;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.section-title.light { color: #FFFFFF; }
+
+.section-desc {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.section-desc.light { color: rgba(255, 255, 255, 0.8); }
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(0, 61, 130, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 61, 130, 0.45);
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-whatsapp {
+  background: var(--color-whatsapp);
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(37, 211, 102, 0.45);
+  color: #FFFFFF;
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--nav-height);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+  transition: all var(--transition);
+}
+
+.navbar.scrolled {
+  box-shadow: var(--shadow-md);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-primary);
+}
+
+.logo-icon { font-size: 1.4rem; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link {
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: all var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-accent);
+  background: rgba(2, 136, 209, 0.08);
+}
+
+.nav-cta {
+  padding: 10px 22px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: #FFFFFF !important;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 8px;
+  transition: all var(--transition);
+  box-shadow: 0 4px 16px rgba(0, 61, 130, 0.3);
+}
+
+.nav-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 61, 130, 0.4);
+  color: #FFFFFF !important;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition);
+}
+
+.hamburger:hover { background: var(--color-bg-soft); }
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  transition: all var(--transition);
+}
+
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #001F54 0%, #003D82 40%, #005BAA 70%, #0288D1 100%);
+  overflow: hidden;
+  padding-top: var(--nav-height);
+}
+
+#heroCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.hero-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  max-width: 600px;
+  padding: 48px 24px 48px 60px;
+  animation: fadeInLeft 1s ease-out;
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 8px 18px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 28px;
+  backdrop-filter: blur(8px);
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  color: #FFFFFF;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+
+.title-accent {
+  display: block;
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-weight: 400;
+  color: var(--color-accent-light);
+  margin-top: 8px;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 4px;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Visual (right side) */
+.hero-visual {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  animation: fadeInRight 1s ease-out 0.3s both;
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.eye-3d-container {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, rgba(41, 182, 246, 0.25), rgba(0, 61, 130, 0.4));
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 80px rgba(41, 182, 246, 0.3), inset 0 0 60px rgba(0, 40, 100, 0.5);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eye-3d-container::before {
+  content: '👁';
+  font-size: 8rem;
+  filter: drop-shadow(0 0 30px rgba(41, 182, 246, 0.8));
+  animation: eyePulse 3s ease-in-out infinite;
+}
+
+@keyframes eyePulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 20px rgba(41, 182, 246, 0.6)); }
+  50%       { transform: scale(1.08); filter: drop-shadow(0 0 40px rgba(41, 182, 246, 1)); }
+}
+
+/* Floating Cards */
+.floating-card {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon { font-size: 1.2rem; }
+
+.card-1 { top: 18%; left: 2%; animation: float1 4s ease-in-out infinite; }
+.card-2 { top: 60%; right: 2%; animation: float2 4.5s ease-in-out infinite 0.5s; }
+.card-3 { bottom: 15%; left: 10%; animation: float3 5s ease-in-out infinite 1s; }
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes float3 {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+
+/* ============================================================
+   ABOUT SECTION
+   ============================================================ */
+.about {
+  background: var(--color-bg);
+}
+
+.about .section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-visual { position: relative; }
+
+.about-3d-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+#aboutCanvas {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--color-bg-soft), #D3EAFF);
+  box-shadow: var(--shadow-lg);
+}
+
+.about-badge {
+  position: absolute;
+  bottom: 24px;
+  right: -24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  animation: float1 4s ease-in-out infinite;
+}
+
+.badge-icon { font-size: 1.8rem; }
+
+.badge-title {
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-primary);
+}
+
+.badge-sub {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.about-content .section-label { display: block; text-align: left; }
+
+.about-bio {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+.about-highlights {
+  margin: 28px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.highlight-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.highlight-icon { font-size: 1.4rem; margin-top: 2px; flex-shrink: 0; }
+
+.highlight-item strong {
+  display: block;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 4px;
+}
+
+.highlight-item p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* ============================================================
+   SERVICES SECTION
+   ============================================================ */
+.services {
+  background: var(--color-bg-soft);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.service-card {
+  position: relative;
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition);
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent-light));
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.service-card:hover {
+  transform: translateY(-10px) rotateX(2deg);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(2, 136, 209, 0.2);
+}
+
+.service-card:hover::before { opacity: 1; }
+
+.service-card.featured {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #005BAA 100%);
+  color: #FFFFFF;
+  border-color: transparent;
+}
+
+.service-card.featured h3,
+.service-card.featured p,
+.service-card.featured .service-features li { color: rgba(255, 255, 255, 0.9); }
+
+.service-card.featured .service-cta { color: var(--color-accent-light); }
+
+.service-badge {
+  position: absolute;
+  top: 20px; right: 20px;
+  background: var(--color-accent-light);
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.service-icon-wrap {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, var(--color-bg-soft), #D3EAFF);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.service-card.featured .service-icon-wrap {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.service-icon { font-size: 1.8rem; }
+
+.service-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.service-features {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.service-features li {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  padding-left: 20px;
+  position: relative;
+}
+
+.service-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-success);
+  font-weight: 700;
+}
+
+.service-cta {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  transition: gap var(--transition);
+}
+
+.service-cta:hover { letter-spacing: 0.02em; }
+
+/* ============================================================
+   WHY CHOOSE SECTION
+   ============================================================ */
+.why-choose {
+  position: relative;
+  background: linear-gradient(135deg, #001F54 0%, #003D82 50%, #005BAA 100%);
+  overflow: hidden;
+}
+
+.why-bg-canvas {
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+.why-choose .section-container { position: relative; z-index: 2; }
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.why-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  backdrop-filter: blur(8px);
+  transition: all var(--transition);
+  cursor: default;
+}
+
+.why-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(41, 182, 246, 0.4);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+.why-icon-wrap {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.why-icon { font-size: 1.5rem; }
+
+.why-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.why-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7;
+}
+
+/* ============================================================
+   CONTACT SECTION
+   ============================================================ */
+.contact { background: var(--color-bg); }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  transition: all var(--transition);
+}
+
+.contact-card:hover {
+  border-color: rgba(2, 136, 209, 0.3);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact-icon { font-size: 1.6rem; flex-shrink: 0; }
+
+.contact-card h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.contact-card a {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.contact-card a:hover { color: var(--color-primary); }
+
+.contact-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.contact-map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  display: block;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background: var(--color-primary);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 64px;
+  padding: 64px 0 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-tagline {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  transition: all var(--transition);
+}
+
+.social-link:hover {
+  background: var(--color-accent);
+  color: #FFFFFF;
+  transform: translateY(-3px);
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.footer-col h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-col a {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color var(--transition);
+}
+
+.footer-col a:hover { color: var(--color-accent-light); }
+
+.footer-col li:not(:has(a)) {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-bottom a {
+  color: var(--color-accent-light);
+}
+
+.footer-bottom a:hover { color: #FFFFFF; }
+
+/* ============================================================
+   WHATSAPP FLOATING BUTTON
+   ============================================================ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--color-whatsapp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+  transition: all var(--transition);
+  animation: waPulse 2.5s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.12);
+  box-shadow: 0 10px 32px rgba(37, 211, 102, 0.65);
+  animation: none;
+}
+
+@keyframes waPulse {
+  0%, 100% { box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5); }
+  50% { box-shadow: 0 6px 32px rgba(37, 211, 102, 0.8), 0 0 0 12px rgba(37, 211, 102, 0.12); }
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 70px;
+  background: var(--color-primary);
+  color: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.whatsapp-tooltip::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-right: none;
+  border-left-color: var(--color-primary);
+}
+
+.whatsapp-float:hover .whatsapp-tooltip { opacity: 1; }
+
+/* ============================================================
+   SCROLL ANIMATIONS
+   ============================================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Staggered delays for children */
+.reveal-stagger > *:nth-child(1) { transition-delay: 0s; }
+.reveal-stagger > *:nth-child(2) { transition-delay: 0.1s; }
+.reveal-stagger > *:nth-child(3) { transition-delay: 0.2s; }
+.reveal-stagger > *:nth-child(4) { transition-delay: 0.3s; }
+.reveal-stagger > *:nth-child(5) { transition-delay: 0.4s; }
+.reveal-stagger > *:nth-child(6) { transition-delay: 0.5s; }
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+/* Large tablets */
+@media (max-width: 1024px) {
+  .hero-content { padding-left: 40px; }
+  .eye-3d-container { width: 340px; height: 340px; }
+  .about .section-container { gap: 48px; }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  :root { --nav-height: 64px; }
+
+  .hamburger { display: flex; }
+
+  .nav-links {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(16px);
+    flex-direction: column;
+    padding: 24px;
+    gap: 8px;
+    border-bottom: 1px solid var(--color-border);
+    transform: translateY(-120%);
+    opacity: 0;
+    transition: transform var(--transition), opacity var(--transition);
+    pointer-events: none;
+  }
+
+  .nav-links.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .nav-link, .nav-cta {
+    width: 100%;
+    text-align: center;
+    padding: 12px 20px;
+  }
+
+  .nav-cta { margin-left: 0; }
+
+  .hero {
+    flex-direction: column;
+    padding-top: calc(var(--nav-height) + 24px);
+    padding-bottom: 60px;
+  }
+
+  .hero-content {
+    padding: 32px 24px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-actions { justify-content: center; }
+  .hero-stats { justify-content: center; }
+
+  .hero-visual {
+    min-height: 320px;
+    width: 100%;
+  }
+
+  .eye-3d-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .floating-card { display: none; }
+
+  .about .section-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-badge { right: 0; }
+
+  .about-content .section-label { text-align: center; }
+  .about-content .section-title { text-align: center; }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .footer-bottom { flex-direction: column; text-align: center; }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .section-container { padding: 72px 20px; }
+
+  .hero-stats { gap: 16px; }
+  .stat-number { font-size: 1.4rem; }
+
+  .services-grid { grid-template-columns: 1fr; }
+  .why-grid { grid-template-columns: 1fr; }
+
+  .footer-links { grid-template-columns: 1fr; }
+
+  .whatsapp-float { bottom: 20px; right: 20px; width: 52px; height: 52px; }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Dr. Akash Mahore Home">
+        <span class="logo-icon">👁</span>
+        <span class="logo-text">Dr. Akash Mahore</span>
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-choose" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="tel:+919130165010" class="nav-cta">Book Appointment</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-particles" aria-hidden="true" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🏥 Mahalakshmi Netralaya, Khamgaon</div>
+      <h1 class="hero-title">
+        Dr. Akash Mahore
+        <span class="title-accent">Ophthalmologist &amp; Eye Surgeon</span>
+      </h1>
+      <p class="hero-subtitle">Expert Eye Care at Mahalakshmi Netralaya</p>
+      <p class="hero-desc">Delivering precision eye care with advanced technology and compassionate service in Khamgaon, Maharashtra.</p>
+      <div class="hero-actions">
+        <a href="tel:+919130165010" class="btn btn-primary">
+          <span>📅</span> Book Appointment
+        </a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Surgeries</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">1000+</span>
+          <span class="stat-label">Happy Patients</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="eye-3d-container" id="eye3dContainer"></div>
+      <div class="floating-card card-1">
+        <span class="card-icon">✅</span>
+        <span>Advanced Technology</span>
+      </div>
+      <div class="floating-card card-2">
+        <span class="card-icon">⭐</span>
+        <span>Expert Surgeon</span>
+      </div>
+      <div class="floating-card card-3">
+        <span class="card-icon">💙</span>
+        <span>Patient-Focused</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about" aria-label="About Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-3d-wrap">
+          <canvas id="aboutCanvas"></canvas>
+          <div class="about-badge">
+            <span class="badge-icon">🏆</span>
+            <div>
+              <span class="badge-title">Board Certified</span>
+              <span class="badge-sub">Ophthalmologist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-label">About Dr. Akash Mahore</div>
+        <h2 class="section-title">Dedicated to Exceptional <span class="text-accent">Eye Care</span></h2>
+        <p class="about-bio">
+          Dr. Akash Mahore is a dedicated ophthalmologist specializing in advanced eye care, cataract surgery, and vision correction. He is associated with <strong>Mahalakshmi Netralaya</strong> and focuses on delivering high-quality, patient-centered care using modern techniques.
+        </p>
+        <p class="about-bio">
+          Practicing in Khamgaon, Maharashtra, Dr. Akash Mahore combines clinical expertise with a compassionate approach, ensuring every patient receives personalized and effective treatment for their vision health.
+        </p>
+        <ul class="about-highlights" role="list">
+          <li class="highlight-item">
+            <span class="highlight-icon">🎓</span>
+            <div>
+              <strong>Specialist in Ophthalmology</strong>
+              <p>Trained in advanced surgical and non-surgical eye treatments</p>
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">🔬</span>
+            <div>
+              <strong>Modern Techniques</strong>
+              <p>Uses the latest technology for precise diagnoses and treatments</p>
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">🏥</span>
+            <div>
+              <strong>Mahalakshmi Netralaya</strong>
+              <p>Khamgaon's trusted centre for comprehensive eye care</p>
+            </div>
+          </li>
+        </ul>
+        <a href="tel:+919130165010" class="btn btn-primary">Book Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services" aria-label="Services offered by Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">Comprehensive <span class="text-accent">Eye Care Services</span></h2>
+        <p class="section-desc">Dr. Akash Mahore provides a full range of ophthalmic services at Mahalakshmi Netralaya, Khamgaon, using state-of-the-art equipment.</p>
+      </div>
+      <div class="services-grid">
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🔦</div>
+          </div>
+          <h3>Cataract Surgery (Phaco)</h3>
+          <p>Advanced phacoemulsification (Phaco) technique for safe, stitch-free cataract removal with rapid visual recovery.</p>
+          <ul class="service-features" role="list">
+            <li>Micro-incision surgery</li>
+            <li>Premium IOL implantation</li>
+            <li>Rapid recovery</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card featured" data-tilt>
+          <div class="service-badge">Popular</div>
+          <div class="service-icon-wrap">
+            <div class="service-icon">👁</div>
+          </div>
+          <h3>Retina Care</h3>
+          <p>Comprehensive diagnosis and management of retinal diseases including diabetic retinopathy and macular degeneration.</p>
+          <ul class="service-features" role="list">
+            <li>Retinal examination</li>
+            <li>Laser treatment</li>
+            <li>Intravitreal injections</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🥽</div>
+          </div>
+          <h3>Contact Lens</h3>
+          <p>Specialised fitting for Ortho-K, RGP, and Scleral lenses for patients requiring customised vision correction solutions.</p>
+          <ul class="service-features" role="list">
+            <li>Ortho-K lenses</li>
+            <li>RGP lenses</li>
+            <li>Scleral lenses</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🩺</div>
+          </div>
+          <h3>General Eye Checkup</h3>
+          <p>Thorough eye examinations to detect early signs of conditions like glaucoma, refractive errors, and other eye diseases.</p>
+          <ul class="service-features" role="list">
+            <li>Visual acuity testing</li>
+            <li>Pressure check</li>
+            <li>Fundus examination</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE SECTION ===== -->
+  <section class="why-choose" id="why-choose" aria-label="Why choose Dr. Akash Mahore">
+    <div class="why-bg-canvas" aria-hidden="true" id="whyCanvas"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label light">Why Choose Us</div>
+        <h2 class="section-title light">Why Choose <span class="text-accent-light">Dr. Akash Mahore</span></h2>
+        <p class="section-desc light">Experience world-class ophthalmology care right in Khamgaon, Maharashtra.</p>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">⚡</div>
+          </div>
+          <h3>Advanced Technology</h3>
+          <p>Dr. Akash Mahore uses cutting-edge diagnostic and surgical equipment, ensuring the most accurate diagnoses and safest procedures.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">💙</div>
+          </div>
+          <h3>Patient-Focused Care</h3>
+          <p>Every patient receives individualised attention and a customised treatment plan, guided by Dr. Akash Mahore's compassionate approach.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🏅</div>
+          </div>
+          <h3>Expertise in Modern Ophthalmology</h3>
+          <p>Deeply knowledgeable in modern ophthalmic practices including complex surgeries, retina care, and speciality contact lens fitting.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🕐</div>
+          </div>
+          <h3>Timely &amp; Efficient</h3>
+          <p>Respect for your time with minimal wait times, streamlined consultations, and prompt follow-up care after procedures.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🔬</div>
+          </div>
+          <h3>Precise Diagnosis</h3>
+          <p>Advanced imaging and diagnostic tools ensure every condition is identified accurately, enabling targeted and effective treatment.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🤝</div>
+          </div>
+          <h3>Trusted by Patients</h3>
+          <p>Hundreds of patients in Khamgaon and surrounding areas trust Dr. Akash Mahore for their vision care needs.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact" aria-label="Contact Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Book Your <span class="text-accent">Appointment</span></h2>
+        <p class="section-desc">Visit Dr. Akash Mahore at Mahalakshmi Netralaya in Khamgaon or reach out directly to schedule a consultation.</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>Mahalakshmi Netralaya<br>Khamgaon, Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+919130165010">+91 91301 65010</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <h3>Hospital Website</h3>
+              <p><a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <h3>Clinic Hours</h3>
+              <p>Mon–Sat: 9:00 AM – 6:00 PM<br>Sunday: By Appointment</p>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="tel:+919130165010" class="btn btn-primary">
+              <span>📞</span> Call Now
+            </a>
+            <a href="https://wa.me/919130165010?text=Hello%20Dr.%20Akash%20Mahore%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <span>💬</span> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            title="Mahalakshmi Netralaya location map"
+            src="https://www.google.com/maps?q=Mahalakshmi+Netralaya+Khamgaon+Maharashtra&output=embed"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-icon">👁</span>
+            <span>Dr. Akash Mahore</span>
+          </div>
+          <p class="footer-tagline">Ophthalmologist &amp; Eye Surgeon<br>Mahalakshmi Netralaya, Khamgaon</p>
+          <div class="footer-social" role="list" aria-label="Social media links">
+            <a href="https://wa.me/919130165010" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Hospital Website">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul role="list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#why-choose">Why Choose Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul role="list">
+              <li><a href="#services">Cataract Surgery</a></li>
+              <li><a href="#services">Retina Care</a></li>
+              <li><a href="#services">Contact Lens</a></li>
+              <li><a href="#services">Eye Checkup</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul role="list">
+              <li><a href="tel:+919130165010">+91 91301 65010</a></li>
+              <li><a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a></li>
+              <li>Khamgaon, Maharashtra</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Dr. Akash Mahore – Mahalakshmi Netralaya. All rights reserved.</p>
+        <p>
+          <a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a
+    href="https://wa.me/919130165010?text=Hello%20Dr.%20Akash%20Mahore%2C%20I%20would%20like%20to%20book%20an%20appointment."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-float"
+    aria-label="Contact Dr. Akash Mahore on WhatsApp"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-tooltip">Chat with Dr. Akash Mahore</span>
+  </a>
+
+  <script>
+/* ============================================================
+   three-setup.js – Canvas 2D Animations
+   Dr. Akash Mahore Website
+   Provides 3D-like animations using the Canvas 2D API
+   (no external dependencies required)
+   ============================================================ */
+
+(function () {
+  'use strict';
+
+  /* ---- Utility ---- */
+  function rand(min, max) { return Math.random() * (max - min) + min; }
+  function lerp(a, b, t) { return a + (b - a) * t; }
+
+  /* ============================================================
+     HERO CANVAS – particle field with animated torus rings
+     ============================================================ */
+  function initHeroCanvas() {
+    var canvas = document.getElementById('heroCanvas');
+    if (!canvas) return;
+
+    var ctx = canvas.getContext('2d');
+    var particles = [];
+    var rings = [
+      { r: 0, rTarget: 180, angle: 0, speed: 0.003, tiltX: 0.4, tiltY: 0.2, opacity: 0.2 },
+      { r: 0, rTarget: 240, angle: 1.2, speed: -0.004, tiltX: 0.7, tiltY: 0.5, opacity: 0.15 },
+      { r: 0, rTarget: 130, angle: 2.5, speed: 0.006, tiltX: 1.1, tiltY: 0.3, opacity: 0.25 }
+    ];
+    var W, H, cx, cy;
+
+    function resize() {
+      W = canvas.parentElement.offsetWidth;
+      H = canvas.parentElement.offsetHeight;
+      canvas.width = W;
+      canvas.height = H;
+      cx = W / 2;
+      cy = H / 2;
+    }
+    resize();
+    window.addEventListener('resize', function () { resize(); rebuildParticles(); });
+
+    function rebuildParticles() {
+      particles = [];
+      var count = Math.min(180, Math.floor(W * H / 5000));
+      for (var i = 0; i < count; i++) {
+        particles.push({
+          x: rand(0, W), y: rand(0, H),
+          vx: rand(-0.15, 0.15), vy: rand(-0.15, 0.15),
+          r: rand(1, 3),
+          alpha: rand(0.2, 0.6)
+        });
+      }
+    }
+    rebuildParticles();
+
+    // Draw an ellipse to simulate a tilted ring
+    function drawRing(ring) {
+      var rx = ring.r;
+      var ry = ring.r * Math.abs(Math.sin(ring.tiltX));
+      if (ry < 2) return;
+      ctx.save();
+      ctx.translate(cx, cy);
+      ctx.rotate(ring.angle);
+      ctx.beginPath();
+      ctx.ellipse(0, 0, rx, ry, ring.tiltY, 0, Math.PI * 2);
+      ctx.strokeStyle = 'rgba(41, 182, 246, ' + ring.opacity + ')';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    var raf;
+    function animate(ts) {
+      raf = requestAnimationFrame(animate);
+      ctx.clearRect(0, 0, W, H);
+
+      // Animate ring radii (grow in on load)
+      rings.forEach(function (ring) {
+        ring.r = lerp(ring.r, ring.rTarget, 0.02);
+        ring.angle += ring.speed;
+        ring.tiltX += 0.004;
+        drawRing(ring);
+      });
+
+      // Particles
+      particles.forEach(function (p) {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0) p.x = W;
+        if (p.x > W) p.x = 0;
+        if (p.y < 0) p.y = H;
+        if (p.y > H) p.y = 0;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(41, 182, 246, ' + p.alpha + ')';
+        ctx.fill();
+      });
+    }
+    animate(0);
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { cancelAnimationFrame(raf); }
+      else { animate(0); }
+    });
+  }
+
+  /* ============================================================
+     ABOUT CANVAS – 3D eye model using Canvas 2D
+     ============================================================ */
+  function initAboutCanvas() {
+    var canvas = document.getElementById('aboutCanvas');
+    if (!canvas) return;
+
+    var ctx = canvas.getContext('2d');
+    var orbitParticles = [];
+    var W, H, cx, cy;
+
+    function resize() {
+      W = canvas.parentElement.offsetWidth;
+      H = canvas.parentElement.offsetHeight || canvas.parentElement.offsetWidth;
+      canvas.width = W;
+      canvas.height = H;
+      cx = W / 2;
+      cy = H / 2;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    // Build orbit particles
+    var ORBIT_COUNT = 60;
+    for (var i = 0; i < ORBIT_COUNT; i++) {
+      var a = (i / ORBIT_COUNT) * Math.PI * 2;
+      var baseR = Math.min(W, H) * 0.42;
+      orbitParticles.push({
+        baseAngle: a,
+        r: baseR + rand(-12, 12),
+        size: rand(2, 5),
+        speed: rand(0.004, 0.01) * (Math.random() > 0.5 ? 1 : -1),
+        alpha: rand(0.3, 0.8)
+      });
+    }
+
+    var mouseX = 0, mouseY = 0;
+    document.addEventListener('mousemove', function (e) {
+      mouseX = (e.clientX / window.innerWidth - 0.5) * 0.6;
+      mouseY = (e.clientY / window.innerHeight - 0.5) * 0.6;
+    });
+
+    var time = 0;
+    var raf;
+
+    function drawEye(tiltX, tiltY) {
+      var R = Math.min(W, H) * 0.3;
+      var pulse = 1 + Math.sin(time * 1.5) * 0.025;
+
+      // Sclera (white of the eye)
+      var grad = ctx.createRadialGradient(cx - R * 0.2, cy - R * 0.2, R * 0.1, cx, cy, R * pulse);
+      grad.addColorStop(0, 'rgba(220, 238, 255, 0.9)');
+      grad.addColorStop(1, 'rgba(160, 200, 240, 0.7)');
+      ctx.beginPath();
+      ctx.ellipse(cx + tiltX * 30, cy + tiltY * 20, R * pulse, R * pulse * 0.85, 0, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.shadowColor = 'rgba(2, 136, 209, 0.3)';
+      ctx.shadowBlur = 30;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+
+      // Iris
+      var irisR = R * 0.52 * pulse;
+      var irisGrad = ctx.createRadialGradient(cx, cy, irisR * 0.1, cx, cy, irisR);
+      irisGrad.addColorStop(0, 'rgba(2, 100, 180, 0.95)');
+      irisGrad.addColorStop(0.5, 'rgba(2, 136, 209, 0.9)');
+      irisGrad.addColorStop(1, 'rgba(0, 61, 130, 0.85)');
+      ctx.beginPath();
+      ctx.ellipse(cx + tiltX * 20, cy + tiltY * 14, irisR, irisR * 0.88, 0, 0, Math.PI * 2);
+      ctx.fillStyle = irisGrad;
+      ctx.fill();
+
+      // Iris texture lines
+      for (var i = 0; i < 16; i++) {
+        var a = (i / 16) * Math.PI * 2 + time * 0.2;
+        ctx.beginPath();
+        ctx.moveTo(cx + tiltX * 20, cy + tiltY * 14);
+        ctx.lineTo(
+          cx + tiltX * 20 + Math.cos(a) * irisR,
+          cy + tiltY * 14 + Math.sin(a) * irisR * 0.88
+        );
+        ctx.strokeStyle = 'rgba(0, 40, 100, 0.12)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      // Pupil
+      var pupilR = irisR * 0.42 * (1 + Math.sin(time * 0.5) * 0.08);
+      ctx.beginPath();
+      ctx.ellipse(cx + tiltX * 20, cy + tiltY * 14, pupilR, pupilR * 0.88, 0, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(0, 10, 30, 0.95)';
+      ctx.fill();
+
+      // Specular highlight
+      ctx.beginPath();
+      ctx.ellipse(cx + tiltX * 20 + irisR * 0.22, cy + tiltY * 14 - irisR * 0.22, irisR * 0.12, irisR * 0.08, -0.5, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
+      ctx.fill();
+
+      // Eyelid curves
+      ctx.beginPath();
+      ctx.moveTo(cx - R * 1.05 + tiltX * 20, cy + tiltY * 14);
+      ctx.quadraticCurveTo(cx + tiltX * 20, cy - R * 0.8 + tiltY * 14, cx + R * 1.05 + tiltX * 20, cy + tiltY * 14);
+      ctx.strokeStyle = 'rgba(100, 160, 200, 0.5)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(cx - R * 1.05 + tiltX * 20, cy + tiltY * 14);
+      ctx.quadraticCurveTo(cx + tiltX * 20, cy + R * 0.75 + tiltY * 14, cx + R * 1.05 + tiltX * 20, cy + tiltY * 14);
+      ctx.strokeStyle = 'rgba(100, 160, 200, 0.4)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+
+    function animate() {
+      raf = requestAnimationFrame(animate);
+      time += 0.016;
+      ctx.clearRect(0, 0, W, H);
+
+      // Background glow
+      var bgGrad = ctx.createRadialGradient(cx, cy, 0, cx, cy, Math.min(W, H) * 0.55);
+      bgGrad.addColorStop(0, 'rgba(211, 234, 255, 0.8)');
+      bgGrad.addColorStop(1, 'rgba(224, 244, 255, 0.3)');
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, W, H);
+
+      // Orbit particles
+      orbitParticles.forEach(function (p) {
+        p.baseAngle += p.speed;
+        var px = cx + Math.cos(p.baseAngle) * p.r;
+        var py = cy + Math.sin(p.baseAngle) * p.r * 0.35;
+        ctx.beginPath();
+        ctx.arc(px, py, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(2, 136, 209, ' + p.alpha + ')';
+        ctx.fill();
+      });
+
+      // Eye
+      drawEye(mouseX, mouseY);
+    }
+    animate();
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { cancelAnimationFrame(raf); }
+      else { animate(); }
+    });
+  }
+
+  /* ============================================================
+     WHY-CHOOSE BACKGROUND – animated rings
+     ============================================================ */
+  function initWhyCanvas() {
+    var wrap = document.getElementById('whyCanvas');
+    if (!wrap) return;
+
+    var canvas = document.createElement('canvas');
+    canvas.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;pointer-events:none;';
+    wrap.appendChild(canvas);
+
+    var ctx = canvas.getContext('2d');
+    var W, H, cx, cy;
+
+    function resize() {
+      W = wrap.offsetWidth;
+      H = wrap.offsetHeight;
+      canvas.width = W;
+      canvas.height = H;
+      cx = W / 2;
+      cy = H / 2;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    var rings = [
+      { r: 200, ry: 70,  angle: 0,    speed: 0.003, opacity: 0.18 },
+      { r: 320, ry: 120, angle: 1.0,  speed: -0.004, opacity: 0.12 },
+      { r: 150, ry: 90,  angle: 2.2,  speed: 0.005, opacity: 0.22 },
+      { r: 420, ry: 140, angle: 3.5,  speed: -0.002, opacity: 0.1 }
+    ];
+
+    var raf;
+    function animate() {
+      raf = requestAnimationFrame(animate);
+      ctx.clearRect(0, 0, W, H);
+
+      rings.forEach(function (ring) {
+        ring.angle += ring.speed;
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(ring.angle);
+        ctx.beginPath();
+        ctx.ellipse(0, 0, ring.r, ring.ry, 0, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(41, 182, 246, ' + ring.opacity + ')';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        ctx.restore();
+      });
+    }
+    animate();
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { cancelAnimationFrame(raf); }
+      else { animate(); }
+    });
+  }
+
+  /* ---- DOM Particle emitter (hero section decorative dots) ---- */
+  function initDOMParticles() {
+    var container = document.getElementById('heroParticles');
+    if (!container) return;
+
+    for (var i = 0; i < 22; i++) {
+      var dot = document.createElement('div');
+      var size = rand(2, 7);
+      dot.style.cssText = [
+        'position:absolute',
+        'border-radius:50%',
+        'background:rgba(41,182,246,' + rand(0.1, 0.35) + ')',
+        'width:' + size + 'px',
+        'height:' + size + 'px',
+        'left:' + rand(0, 100) + '%',
+        'top:' + rand(0, 100) + '%',
+        'animation:drift ' + rand(7, 14) + 's ease-in-out infinite',
+        'animation-delay:' + rand(0, 6) + 's'
+      ].join(';');
+      container.appendChild(dot);
+    }
+
+    if (!document.getElementById('driftKF')) {
+      var s = document.createElement('style');
+      s.id = 'driftKF';
+      s.textContent = '@keyframes drift{0%,100%{transform:translateY(0)translateX(0)}25%{transform:translateY(-18px)translateX(8px)}50%{transform:translateY(-32px)translateX(-8px)}75%{transform:translateY(-12px)translateX(12px)}}';
+      document.head.appendChild(s);
+    }
+  }
+
+  /* ---- Init all ---- */
+  function init() {
+    initDOMParticles();
+    initHeroCanvas();
+    initAboutCanvas();
+    initWhyCanvas();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+
+  </script>
+
+  <script>
+/* ============================================================
+   script.js – Dr. Akash Mahore Website Interactivity
+   ============================================================ */
+
+(function () {
+  'use strict';
+
+  /* ---- Navbar: scroll effect + active link highlighting ---- */
+  var navbar = document.getElementById('navbar');
+  var navLinks = document.querySelectorAll('.nav-link');
+  var sections = document.querySelectorAll('section[id]');
+
+  function onScroll() {
+    // Scrolled class
+    if (window.scrollY > 20) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+
+    // Active section highlight
+    var scrollPos = window.scrollY + 100;
+    sections.forEach(function (section) {
+      var top = section.offsetTop;
+      var bottom = top + section.offsetHeight;
+      var id = section.getAttribute('id');
+      navLinks.forEach(function (link) {
+        if (link.getAttribute('href') === '#' + id) {
+          if (scrollPos >= top && scrollPos < bottom) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        }
+      });
+    });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll(); // Run on load
+
+  /* ---- Smooth scroll for all anchor links ---- */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 72;
+      var top = target.getBoundingClientRect().top + window.scrollY - navHeight;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+
+      // Close hamburger menu if open
+      closeMenu();
+    });
+  });
+
+  /* ---- Hamburger Menu ---- */
+  var hamburger = document.getElementById('hamburger');
+  var navLinksEl = document.getElementById('navLinks');
+
+  function closeMenu() {
+    if (hamburger) { hamburger.classList.remove('open'); hamburger.setAttribute('aria-expanded', 'false'); }
+    if (navLinksEl) { navLinksEl.classList.remove('open'); }
+  }
+
+  if (hamburger && navLinksEl) {
+    hamburger.addEventListener('click', function () {
+      var isOpen = navLinksEl.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Close when clicking outside nav
+    document.addEventListener('click', function (e) {
+      if (!navbar.contains(e.target)) { closeMenu(); }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { closeMenu(); }
+    });
+  }
+
+  /* ---- Scroll-reveal animations ---- */
+  function setupReveal() {
+    var revealEls = [];
+
+    // About
+    var aboutVisual = document.querySelector('.about-visual');
+    var aboutContent = document.querySelector('.about-content');
+    if (aboutVisual) { aboutVisual.classList.add('reveal-left'); revealEls.push(aboutVisual); }
+    if (aboutContent) { aboutContent.classList.add('reveal-right'); revealEls.push(aboutContent); }
+
+    // Section headers
+    document.querySelectorAll('.section-header').forEach(function (el) {
+      el.classList.add('reveal');
+      revealEls.push(el);
+    });
+
+    // Service cards (staggered)
+    var servicesGrid = document.querySelector('.services-grid');
+    if (servicesGrid) {
+      servicesGrid.classList.add('reveal-stagger');
+      document.querySelectorAll('.service-card').forEach(function (el) {
+        el.classList.add('reveal');
+        revealEls.push(el);
+      });
+    }
+
+    // Why cards (staggered)
+    var whyGrid = document.querySelector('.why-grid');
+    if (whyGrid) {
+      whyGrid.classList.add('reveal-stagger');
+      document.querySelectorAll('.why-card').forEach(function (el) {
+        el.classList.add('reveal');
+        revealEls.push(el);
+      });
+    }
+
+    // Contact grid children
+    document.querySelectorAll('.contact-card').forEach(function (el) {
+      el.classList.add('reveal');
+      revealEls.push(el);
+    });
+
+    var contactMap = document.querySelector('.contact-map');
+    if (contactMap) { contactMap.classList.add('reveal-right'); revealEls.push(contactMap); }
+
+    var contactInfo = document.querySelector('.contact-info');
+    if (contactInfo) { contactInfo.classList.add('reveal-left'); revealEls.push(contactInfo); }
+
+    // Hero stats
+    var heroStats = document.querySelector('.hero-stats');
+    if (heroStats) { heroStats.classList.add('reveal'); revealEls.push(heroStats); }
+
+    return revealEls;
+  }
+
+  var revealEls = setupReveal();
+
+  function checkReveal() {
+    var windowBottom = window.scrollY + window.innerHeight;
+    revealEls.forEach(function (el) {
+      if (el.classList.contains('visible')) return;
+      var elTop = el.getBoundingClientRect().top + window.scrollY;
+      if (windowBottom > elTop + 60) {
+        el.classList.add('visible');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', checkReveal, { passive: true });
+  checkReveal(); // Check on load
+
+  /* ---- 3D card tilt effect on service cards ---- */
+  document.querySelectorAll('[data-tilt]').forEach(function (card) {
+    card.addEventListener('mousemove', function (e) {
+      var rect = card.getBoundingClientRect();
+      var x = e.clientX - rect.left;
+      var y = e.clientY - rect.top;
+      var cx = rect.width / 2;
+      var cy = rect.height / 2;
+      var rotateX = ((y - cy) / cy) * -8;
+      var rotateY = ((x - cx) / cx) * 8;
+      card.style.transform = 'perspective(800px) rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg) translateY(-10px)';
+    });
+
+    card.addEventListener('mouseleave', function () {
+      card.style.transform = '';
+    });
+  });
+
+  /* ---- Footer year ---- */
+  var yearEl = document.getElementById('year');
+  if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+
+  /* ---- Hero stats number counter ---- */
+  function animateCounter(el, target, suffix) {
+    var start = 0;
+    var duration = 1800;
+    var startTime = null;
+
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var val = Math.floor(progress * target);
+      el.textContent = val + suffix;
+      if (progress < 1) { requestAnimationFrame(step); }
+      else { el.textContent = target + suffix; }
+    }
+    requestAnimationFrame(step);
+  }
+
+  var statsObserver;
+  var statsAnimated = false;
+
+  function observeStats() {
+    var heroStats = document.querySelector('.hero-stats');
+    if (!heroStats) return;
+
+    if ('IntersectionObserver' in window) {
+      statsObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && !statsAnimated) {
+            statsAnimated = true;
+            var numbers = document.querySelectorAll('.stat-number');
+            var targets = [500, 1000, 5];
+            var suffixes = ['+', '+', '+'];
+            numbers.forEach(function (el, i) {
+              animateCounter(el, targets[i], suffixes[i]);
+            });
+            statsObserver.disconnect();
+          }
+        });
+      }, { threshold: 0.5 });
+      statsObserver.observe(heroStats);
+    }
+  }
+
+  observeStats();
+
+  /* ---- Parallax on hero background ---- */
+  window.addEventListener('scroll', function () {
+    var heroCanvas = document.getElementById('heroCanvas');
+    if (!heroCanvas) return;
+    var scrolled = window.scrollY;
+    heroCanvas.style.transform = 'translateY(' + (scrolled * 0.3) + 'px)';
+  }, { passive: true });
+
+})();
+
+  </script>
+</body>
+</html>
