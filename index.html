@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dr. Akash Mahore is a renowned ophthalmologist at Mahalakshmi Netralaya, Khamgaon, Maharashtra. Expert in cataract surgery, retina care, contact lens fitting, and general eye checkups." />
+  <meta name="keywords" content="Dr. Akash Mahore, ophthalmologist, eye surgeon, Mahalakshmi Netralaya, Khamgaon, Maharashtra, cataract surgery, retina care, contact lens, eye checkup" />
+  <meta name="author" content="Dr. Akash Mahore" />
+  <meta property="og:title" content="Dr. Akash Mahore | Ophthalmologist | Mahalakshmi Netralaya" />
+  <meta property="og:description" content="Expert eye care at Mahalakshmi Netralaya, Khamgaon, Maharashtra. Book an appointment with Dr. Akash Mahore today." />
+  <meta property="og:type" content="website" />
+  <title>Dr. Akash Mahore | Ophthalmologist | Mahalakshmi Netralaya</title>
+
+  <!-- Schema Markup for Medical Professional -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Akash Mahore",
+    "description": "Ophthalmologist and Eye Surgeon specializing in cataract surgery, retina care, and vision correction.",
+    "medicalSpecialty": "Ophthalmology",
+    "worksFor": {
+      "@type": "MedicalOrganization",
+      "name": "Mahalakshmi Netralaya",
+      "url": "https://mahalakshminetralaya.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Khamgaon",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    },
+    "telephone": "+919130165010",
+    "url": "https://mahalakshminetralaya.com"
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Dr. Akash Mahore Home">
+        <span class="logo-icon">👁</span>
+        <span class="logo-text">Dr. Akash Mahore</span>
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-choose" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="tel:+919130165010" class="nav-cta">Book Appointment</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-particles" aria-hidden="true" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🏥 Mahalakshmi Netralaya, Khamgaon</div>
+      <h1 class="hero-title">
+        Dr. Akash Mahore
+        <span class="title-accent">Ophthalmologist &amp; Eye Surgeon</span>
+      </h1>
+      <p class="hero-subtitle">Expert Eye Care at Mahalakshmi Netralaya</p>
+      <p class="hero-desc">Delivering precision eye care with advanced technology and compassionate service in Khamgaon, Maharashtra.</p>
+      <div class="hero-actions">
+        <a href="tel:+919130165010" class="btn btn-primary">
+          <span>📅</span> Book Appointment
+        </a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Surgeries</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">1000+</span>
+          <span class="stat-label">Happy Patients</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="eye-3d-container" id="eye3dContainer"></div>
+      <div class="floating-card card-1">
+        <span class="card-icon">✅</span>
+        <span>Advanced Technology</span>
+      </div>
+      <div class="floating-card card-2">
+        <span class="card-icon">⭐</span>
+        <span>Expert Surgeon</span>
+      </div>
+      <div class="floating-card card-3">
+        <span class="card-icon">💙</span>
+        <span>Patient-Focused</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about" aria-label="About Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="about-visual" aria-hidden="true">
+        <div class="about-3d-wrap">
+          <canvas id="aboutCanvas"></canvas>
+          <div class="about-badge">
+            <span class="badge-icon">🏆</span>
+            <div>
+              <span class="badge-title">Board Certified</span>
+              <span class="badge-sub">Ophthalmologist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-label">About Dr. Akash Mahore</div>
+        <h2 class="section-title">Dedicated to Exceptional <span class="text-accent">Eye Care</span></h2>
+        <p class="about-bio">
+          Dr. Akash Mahore is a dedicated ophthalmologist specializing in advanced eye care, cataract surgery, and vision correction. He is associated with <strong>Mahalakshmi Netralaya</strong> and focuses on delivering high-quality, patient-centered care using modern techniques.
+        </p>
+        <p class="about-bio">
+          Practicing in Khamgaon, Maharashtra, Dr. Akash Mahore combines clinical expertise with a compassionate approach, ensuring every patient receives personalized and effective treatment for their vision health.
+        </p>
+        <ul class="about-highlights" role="list">
+          <li class="highlight-item">
+            <span class="highlight-icon">🎓</span>
+            <div>
+              <strong>Specialist in Ophthalmology</strong>
+              <p>Trained in advanced surgical and non-surgical eye treatments</p>
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">🔬</span>
+            <div>
+              <strong>Modern Techniques</strong>
+              <p>Uses the latest technology for precise diagnoses and treatments</p>
+            </div>
+          </li>
+          <li class="highlight-item">
+            <span class="highlight-icon">🏥</span>
+            <div>
+              <strong>Mahalakshmi Netralaya</strong>
+              <p>Khamgaon's trusted centre for comprehensive eye care</p>
+            </div>
+          </li>
+        </ul>
+        <a href="tel:+919130165010" class="btn btn-primary">Book Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services" aria-label="Services offered by Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">Comprehensive <span class="text-accent">Eye Care Services</span></h2>
+        <p class="section-desc">Dr. Akash Mahore provides a full range of ophthalmic services at Mahalakshmi Netralaya, Khamgaon, using state-of-the-art equipment.</p>
+      </div>
+      <div class="services-grid">
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🔦</div>
+          </div>
+          <h3>Cataract Surgery (Phaco)</h3>
+          <p>Advanced phacoemulsification (Phaco) technique for safe, stitch-free cataract removal with rapid visual recovery.</p>
+          <ul class="service-features" role="list">
+            <li>Micro-incision surgery</li>
+            <li>Premium IOL implantation</li>
+            <li>Rapid recovery</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card featured" data-tilt>
+          <div class="service-badge">Popular</div>
+          <div class="service-icon-wrap">
+            <div class="service-icon">👁</div>
+          </div>
+          <h3>Retina Care</h3>
+          <p>Comprehensive diagnosis and management of retinal diseases including diabetic retinopathy and macular degeneration.</p>
+          <ul class="service-features" role="list">
+            <li>Retinal examination</li>
+            <li>Laser treatment</li>
+            <li>Intravitreal injections</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🥽</div>
+          </div>
+          <h3>Contact Lens</h3>
+          <p>Specialised fitting for Ortho-K, RGP, and Scleral lenses for patients requiring customised vision correction solutions.</p>
+          <ul class="service-features" role="list">
+            <li>Ortho-K lenses</li>
+            <li>RGP lenses</li>
+            <li>Scleral lenses</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🩺</div>
+          </div>
+          <h3>General Eye Checkup</h3>
+          <p>Thorough eye examinations to detect early signs of conditions like glaucoma, refractive errors, and other eye diseases.</p>
+          <ul class="service-features" role="list">
+            <li>Visual acuity testing</li>
+            <li>Pressure check</li>
+            <li>Fundus examination</li>
+          </ul>
+          <a href="tel:+919130165010" class="service-cta">Book Now →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE SECTION ===== -->
+  <section class="why-choose" id="why-choose" aria-label="Why choose Dr. Akash Mahore">
+    <div class="why-bg-canvas" aria-hidden="true" id="whyCanvas"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label light">Why Choose Us</div>
+        <h2 class="section-title light">Why Choose <span class="text-accent-light">Dr. Akash Mahore</span></h2>
+        <p class="section-desc light">Experience world-class ophthalmology care right in Khamgaon, Maharashtra.</p>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">⚡</div>
+          </div>
+          <h3>Advanced Technology</h3>
+          <p>Dr. Akash Mahore uses cutting-edge diagnostic and surgical equipment, ensuring the most accurate diagnoses and safest procedures.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">💙</div>
+          </div>
+          <h3>Patient-Focused Care</h3>
+          <p>Every patient receives individualised attention and a customised treatment plan, guided by Dr. Akash Mahore's compassionate approach.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🏅</div>
+          </div>
+          <h3>Expertise in Modern Ophthalmology</h3>
+          <p>Deeply knowledgeable in modern ophthalmic practices including complex surgeries, retina care, and speciality contact lens fitting.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🕐</div>
+          </div>
+          <h3>Timely &amp; Efficient</h3>
+          <p>Respect for your time with minimal wait times, streamlined consultations, and prompt follow-up care after procedures.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🔬</div>
+          </div>
+          <h3>Precise Diagnosis</h3>
+          <p>Advanced imaging and diagnostic tools ensure every condition is identified accurately, enabling targeted and effective treatment.</p>
+        </div>
+
+        <div class="why-card" role="article">
+          <div class="why-icon-wrap">
+            <div class="why-icon">🤝</div>
+          </div>
+          <h3>Trusted by Patients</h3>
+          <p>Hundreds of patients in Khamgaon and surrounding areas trust Dr. Akash Mahore for their vision care needs.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact" aria-label="Contact Dr. Akash Mahore">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Book Your <span class="text-accent">Appointment</span></h2>
+        <p class="section-desc">Visit Dr. Akash Mahore at Mahalakshmi Netralaya in Khamgaon or reach out directly to schedule a consultation.</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>Mahalakshmi Netralaya<br>Khamgaon, Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+919130165010">+91 91301 65010</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🌐</div>
+            <div>
+              <h3>Hospital Website</h3>
+              <p><a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <h3>Clinic Hours</h3>
+              <p>Mon–Sat: 9:00 AM – 6:00 PM<br>Sunday: By Appointment</p>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="tel:+919130165010" class="btn btn-primary">
+              <span>📞</span> Call Now
+            </a>
+            <a href="https://wa.me/919130165010?text=Hello%20Dr.%20Akash%20Mahore%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <span>💬</span> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            title="Mahalakshmi Netralaya location map"
+            src="https://www.google.com/maps?q=Mahalakshmi+Netralaya+Khamgaon+Maharashtra&output=embed"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-icon">👁</span>
+            <span>Dr. Akash Mahore</span>
+          </div>
+          <p class="footer-tagline">Ophthalmologist &amp; Eye Surgeon<br>Mahalakshmi Netralaya, Khamgaon</p>
+          <div class="footer-social" role="list" aria-label="Social media links">
+            <a href="https://wa.me/919130165010" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Hospital Website">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul role="list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#why-choose">Why Choose Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul role="list">
+              <li><a href="#services">Cataract Surgery</a></li>
+              <li><a href="#services">Retina Care</a></li>
+              <li><a href="#services">Contact Lens</a></li>
+              <li><a href="#services">Eye Checkup</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul role="list">
+              <li><a href="tel:+919130165010">+91 91301 65010</a></li>
+              <li><a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a></li>
+              <li>Khamgaon, Maharashtra</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Dr. Akash Mahore – Mahalakshmi Netralaya. All rights reserved.</p>
+        <p>
+          <a href="https://mahalakshminetralaya.com" target="_blank" rel="noopener noreferrer">mahalakshminetralaya.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a
+    href="https://wa.me/919130165010?text=Hello%20Dr.%20Akash%20Mahore%2C%20I%20would%20like%20to%20book%20an%20appointment."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-float"
+    aria-label="Contact Dr. Akash Mahore on WhatsApp"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-tooltip">Chat with Dr. Akash Mahore</span>
+  </a>
+
+  <script src="three-setup.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
